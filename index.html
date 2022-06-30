@@ -1,0 +1,49 @@
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <title>Untitled Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <h2>Web Design Portfolio</h2>
+
+ 
+</head>
+
+<body class="bg">
+    <div class="fg">
+        <a href="index.html"><img src="images/logo.png" width="562" height="136" alt="logo"></a>
+    </div>
+
+
+
+    <p>
+        <span class="every">E v e r y t h i n g&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span class="you">y o u&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span class="can">c a n&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span class="imagine">i m a g i n e&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span class="isreal">i s&nbsp;&nbsp;&nbsp; r e a l .</span>
+</p>
+    
+
+
+
+
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script>
+for (i=0;i<=4;i++) {
+$("p span").eq(i).delay(i*500).animate({"opacity":"1"},2000)
+} // 맨뒤의 1500이 빠름과 느림을 나타내는 초. 	
+$("img").animate({"opacity":"1"},3000)
+
+</script>
+   
+
+
+    
+</body>
+
+</html>
