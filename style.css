@@ -7,20 +7,20 @@ img{border:none;}
 li{list-style:none;}
 a{text-decoration:none;}
 
-body{ text-align:center; font-family:"맑은고딕";}
+body{ font-family:"맑은고딕";}
 ul:after{content:"";  clear:both;  visibility:hidden;  display:block; height:0;}
 
-h2 {text-align: center; margin-top:10%; color:000;}
-.bg{ background:url(images/bg.jpg) no-repeat center fixed; }
-.bg .fg a img{ text-align: center; margin-top:5%; display: inline-block;}
+h2 { margin-top:10%;  color:color #860fd2; font-weight:bold; font-size:40px; font-family: Sucrose Bold Two;}
+.bg{ background:url(https://drive.google.com/file/d/1fqrTJNQLYiiDNK2ji3JE5aEik6TSH3S3/view?usp=sharing) no-repeat center fixed; }
 p span {font-weight:bold; font-size:30px; margin-top: 20px;}
+main body div{width:50px; height:50px;}
 
 
 
 
 
 body {
-    background: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
     padding: 2rem;
   }
   
@@ -32,7 +32,7 @@ body {
     font-size: 2rem;
     line-height: 0.75;
   }
-  
+  header h1 .yellow{color:#860fd2;}
   span {
     display: block;
   }
@@ -77,18 +77,27 @@ body {
     font-family: 'Sucrose Bold Two';
     src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/sucrose.woff2') format('woff2');
     }
-@font-face {
+/* 산 사진 @font-face {
     font-family: 'IM Fell French Canon Pro';
     src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/im-fell-french-canon-pro.woff2') format('woff2');
-}
-* {
-  box-sizing: border-box;
-}
+} */
+
+/* @font-face 
+  {font-family: 'IM Fell French Canon Pro';
+  
+  box-sizing: border-box; 
+  src: url("https://drive.google.com/file/d/1fqrTJNQLYiiDNK2ji3JE5aEik6TSH3S3/view?usp=sharing")
+  format('woff2');} */
+
+
+
 body {
   margin: 0;
 }
 header { 
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/mountain-range.jpg) no-repeat;
+  /* background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/mountain-range.jpg) no-repeat;  */
+  
+
   padding-top: 61.93333333%;
   background-size: cover;
   font-family: 'Sucrose Bold Two';
@@ -112,6 +121,7 @@ header h1 span {
   display: block;
   font-size: 8.75vw;
 }
+
 main { 
   background: #fff;
   position: relative;
