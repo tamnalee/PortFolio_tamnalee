@@ -7,11 +7,11 @@ img{border:none;}
 li{list-style:none;}
 a{text-decoration:none;}
 
-body{ font-family:"맑은고딕";}
+body{ font-family:"맑은고딕"; }
 ul:after{content:"";  clear:both;  visibility:hidden;  display:block; height:0;}
 
 h2 { margin-top:10%;  color:color #860fd2; font-weight:bold; font-size:40px; font-family: Sucrose Bold Two;}
-.bg{ background:url(https://drive.google.com/file/d/1fqrTJNQLYiiDNK2ji3JE5aEik6TSH3S3/view?usp=sharing) no-repeat center fixed; }
+div{ background:url(https://drive.google.com/file/d/1fqrTJNQLYiiDNK2ji3JE5aEik6TSH3S3/view?usp=sharing) no-repeat center fixed; }
 p span {font-weight:bold; font-size:30px; margin-top: 20px;}
 main body div{width:50px; height:50px;}
 
@@ -21,6 +21,8 @@ main body div{width:50px; height:50px;}
 
 body {
     background: rgb(255, 255, 255);
+
+
     padding: 2rem;
   }
   
