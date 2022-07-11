@@ -11,18 +11,17 @@ body{ font-family:"맑은고딕";}
 ul:after{content:"";  clear:both;  visibility:hidden;  display:block; height:0;}
 
 h2 { margin-top:10%;  color:color #860fd2; font-weight:bold; font-size:40px; font-family: Sucrose Bold Two;}
-.bg{ background:url(https://drive.google.com/file/d/1fqrTJNQLYiiDNK2ji3JE5aEik6TSH3S3/view?usp=sharing) no-repeat center fixed; }
+/* .bg{ background:url(https://drive.google.com/file/d/1fqrTJNQLYiiDNK2ji3JE5aEik6TSH3S3/view?usp=sharing) no-repeat center fixed; } */
 p span {font-weight:bold; font-size:30px; margin-top: 20px;}
-main body div{width:50px; height:50px;}
 
 
 
 
 
-body {
+/* body {
     background: rgb(255, 255, 255);
     padding: 2rem;
-  }
+  } */
   
   p {
     font-family: '맑은고딕';
@@ -52,7 +51,7 @@ body {
       top: -10%;
       width: 100%;
       height: 120%;
-      background: #fff;
+      /* background: #fff; */
       filter: blur(10px);
       content: "";
       opacity: 0;
@@ -75,7 +74,7 @@ body {
 
   @font-face {
     font-family: 'Sucrose Bold Two';
-    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/sucrose.woff2') format('woff2');
+    /* src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/sucrose.woff2') format('woff2'); */
     }
 /* 산 사진 @font-face {
     font-family: 'IM Fell French Canon Pro';
@@ -91,22 +90,22 @@ body {
 
 
 
-body {
-  margin: 0;
+/* body { */
+  /* margin: 0; */
 }
 header { 
   /* background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/mountain-range.jpg) no-repeat;  */
   
 
-  padding-top: 61.93333333%;
-  background-size: cover;
+  /* padding-top: 61.93333333%; */
+  background-size: 100%;
   font-family: 'Sucrose Bold Two';
 }
 header img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 70%;
+  /* position: absolute; */
+  /* top: 0;
+  right: 0; */
+  /* width: 100%; height:auto; */
 }
 header h1 { 
   position: fixed;
@@ -122,7 +121,7 @@ header h1 span {
   font-size: 8.75vw;
 }
 
-main { 
+/* main { 
   background: #fff;
   position: relative;
   border: 1px solid #fff;
@@ -133,7 +132,7 @@ main {
 }
 @media all and (max-width: 400px) {
   main { padding: 2rem; }
-}
+} */
 
 
 
