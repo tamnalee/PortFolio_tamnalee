@@ -12,7 +12,11 @@ ul:after{content:"";  clear:both;  visibility:hidden;  display:block; height:0;}
 
 h1 {   color:color #3c3838; font-weight:bold; font-size:40px; font-family: Sucrose Bold Two;}
 /* .bg{ background:url(https://drive.google.com/file/d/1fqrTJNQLYiiDNK2ji3JE5aEik6TSH3S3/view?usp=sharing) no-repeat center fixed; } */
-body div img{width:100%;}
+
+div #button {position:relative;}
+#button a {width:500px; height:200px; border-color:#477fce;  position:absolute; top:30%; right:10%; color:#fff; font-size:70px;}
+
+
 
 
 
