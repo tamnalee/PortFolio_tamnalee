@@ -10,31 +10,42 @@ a{text-decoration:none;}
 body{ font-family:"맑은고딕"; }
 ul:after{content:"";  clear:both;  visibility:hidden;  display:block; height:0;}
 
+<<<<<<< HEAD
 h2 { margin-top:10%;  color:color #860fd2; font-weight:bold; font-size:40px; font-family: Sucrose Bold Two;}
 div{ background:url(https://drive.google.com/file/d/1fqrTJNQLYiiDNK2ji3JE5aEik6TSH3S3/view?usp=sharing) no-repeat center fixed; }
 p span {font-weight:bold; font-size:30px; margin-top: 20px;}
 main body div{width:50px; height:50px;}
+=======
+h1 {   color:color #3c3838; font-weight:bold; font-size:40px; font-family: Sucrose Bold Two;}
+/* .bg{ background:url(https://drive.google.com/file/d/1fqrTJNQLYiiDNK2ji3JE5aEik6TSH3S3/view?usp=sharing) no-repeat center fixed; } */
+
+div #button {position:relative;}
+#box {width:700px; height:100px; border:1px solid #fff;  position:absolute; top:60%; right:5%; color:#fff; font-size:70px; position:fixed;}
+>>>>>>> 647d8c63f90fdc238e94bd2b362a304e9da346f6
 
 
 
 
 
-body {
+ 
+/* body {
     background: rgb(255, 255, 255);
 
 
     padding: 2rem;
-  }
+  } */
   
   p {
-    font-family: '맑은고딕';
-    color: #000;
+    
+    font-family: 'Sucrose'; 
+    color:#690cd3;
     text-transform: uppercase;
-    font-weight: light;
+    font-weight:bold;
     font-size: 2rem;
     line-height: 0.75;
+    text-align: center;
   }
-  header h1 .yellow{color:#860fd2;}
+  header h1 .fontcolor{color:#000000; text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;}
   span {
     display: block;
   }
@@ -54,7 +65,7 @@ body {
       top: -10%;
       width: 100%;
       height: 120%;
-      background: #fff;
+      /* background: #fff; */
       filter: blur(10px);
       content: "";
       opacity: 0;
@@ -77,7 +88,7 @@ body {
 
   @font-face {
     font-family: 'Sucrose Bold Two';
-    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/sucrose.woff2') format('woff2');
+    /* src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/sucrose.woff2') format('woff2'); */
     }
 /* 산 사진 @font-face {
     font-family: 'IM Fell French Canon Pro';
@@ -93,22 +104,22 @@ body {
 
 
 
-body {
-  margin: 0;
+/* body { */
+  /* margin: 0; */
 }
 header { 
   /* background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/mountain-range.jpg) no-repeat;  */
   
 
-  padding-top: 61.93333333%;
-  background-size: cover;
+  /* padding-top: 61.93333333%; */
+  background-size: 100%;
   font-family: 'Sucrose Bold Two';
 }
 header img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 70%;
+  /* position: absolute; */
+  /* top: 0;
+  right: 0; */
+  /* width: 100%; height:auto; */
 }
 header h1 { 
   position: fixed;
@@ -118,13 +129,19 @@ header h1 {
   line-height: .8;
   margin-top: 0;
   text-align: center;
+  color:aliceblue;
+  
 }
 header h1 span {
   display: block;
   font-size: 8.75vw;
+
+  
 }
 
-main { 
+
+
+/* main { 
   background: #fff;
   position: relative;
   border: 1px solid #fff;
@@ -135,7 +152,7 @@ main {
 }
 @media all and (max-width: 400px) {
   main { padding: 2rem; }
-}
+} */
 
 
 
