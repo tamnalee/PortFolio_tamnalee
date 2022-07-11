@@ -14,7 +14,7 @@ h1 {   color:color #3c3838; font-weight:bold; font-size:40px; font-family: Sucro
 /* .bg{ background:url(https://drive.google.com/file/d/1fqrTJNQLYiiDNK2ji3JE5aEik6TSH3S3/view?usp=sharing) no-repeat center fixed; } */
 
 div #button {position:relative;}
-#box {width:500px; height:200px; border:1px solid #fff;  position:absolute; top:50%; right:5%; color:#fff; font-size:70px;}
+#box {width:700px; height:100px; border:1px solid #fff;  position:absolute; top:60%; right:5%; color:#fff; font-size:70px; position:fixed;}
 
 
 
