@@ -24,13 +24,14 @@ body div img{width:100%;}
   } */
   
   p {
-    text-shadow: -1px 0 rgb(193, 156, 235), 0 1px rgb(239, 138, 244), 1px 0 #000, 0 -1px #000;
+    
     font-family: 'Sucrose'; 
     color:#690cd3;
     text-transform: uppercase;
     font-weight:bold;
     font-size: 2rem;
     line-height: 0.75;
+    text-align: center;
   }
   header h1 .fontcolor{color:#000000; text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;}
   span {
