@@ -24,14 +24,15 @@ body div img{width:100%;}
   } */
   
   p {
-    font-family: '맑은고딕';
-    color: rgb(255, 255, 255);
+    text-shadow: -1px 0 rgb(193, 156, 235), 0 1px rgb(239, 138, 244), 1px 0 #000, 0 -1px #000;
+    font-family: 'Sucrose'; 
+    color:#690cd3;
     text-transform: uppercase;
-    font-weight: light;
+    font-weight:bold;
     font-size: 2rem;
     line-height: 0.75;
   }
-  header h1 .fontcolor{color:#ffe606;}
+  header h1 .fontcolor{color:#000000; text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;}
   span {
     display: block;
   }
@@ -121,7 +122,11 @@ header h1 {
 header h1 span {
   display: block;
   font-size: 8.75vw;
+
+  
 }
+
+
 
 /* main { 
   background: #fff;
